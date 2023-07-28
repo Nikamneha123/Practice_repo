@@ -1,0 +1,11 @@
+name: Suite
+configFailurePolicy: skip
+tests:
+  - name: Test
+  classes:
+    - name: TestNG_feature.enabledXMLfile
+      includedMethods:
+        - name: Test1
+        - name: Test2
+        - name: A
+
